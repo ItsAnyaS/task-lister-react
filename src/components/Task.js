@@ -1,6 +1,6 @@
-const Task = () => {
+const Task = ({text}) => {
     return (
-       <li>Task</li>
+       <li>{text}</li>
     )
 }
 
